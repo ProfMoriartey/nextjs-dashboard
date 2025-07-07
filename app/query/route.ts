@@ -13,14 +13,14 @@ async function listInvoices() {
 	return data;
 }
 
-export async function GET() {
-  return 
-  // try {
-  // 	return Response.json(await listInvoices());
-  // } catch (error) {
-  // 	return Response.json({ error }, { status: 500 });
-  // }
-}
+// export async function GET() {
+//   return 
+//   // try {
+//   // 	return Response.json(await listInvoices());
+//   // } catch (error) {
+//   // 	return Response.json({ error }, { status: 500 });
+//   // }
+// }
 
 // Response.json({
 //   message:
