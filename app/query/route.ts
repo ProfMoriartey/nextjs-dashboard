@@ -13,16 +13,10 @@ async function listInvoices() {
 	return data;
 }
 
-// export async function GET() {
-//   return 
-//   // try {
-//   // 	return Response.json(await listInvoices());
-//   // } catch (error) {
-//   // 	return Response.json({ error }, { status: 500 });
-//   // }
-// }
-
-// Response.json({
-//   message:
-//     'Uncomment this file and remove this line. You can delete this file when you are finished.',
-// });
+export async function GET() {
+  try {
+  	return Response.json(await listInvoices());
+  } catch (error) {
+  	return Response.json({ error }, { status: 500 });
+  }
+}
